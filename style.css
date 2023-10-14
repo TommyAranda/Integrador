@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.header{
+    height: 80px;
+    width: 100%;
+    padding: 0px 50px;
+    box-shadow: rgba(149, 157 , 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 80px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: rgb(27, 27, 131);
+    font-weight: 300;
+}
