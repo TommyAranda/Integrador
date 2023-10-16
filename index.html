@@ -5,23 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESTUDIOTOM</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
 </head>
 
 <body>
     <header class="header">
         <img src="./imagenes/LOGO.jpg" alt="logo de estudiotoms">
-        <nav class="navbar">
-            <ul>
-                <li><a class="navbar-link" href="#">Accidente de Trabajo ART</a></li>
-                <li><a class="navbar-link" href="">Accidentes de Tránsito</a></li>
-                <li><a class="navbar-link" href="">Estadios de Fútbol/Recitales</a></li>
-                <li><a class="navbar-link" href="">Indemnización por Despido</a></li>
-                <li><a class="navbar-link" href="Contact">Contacto</a></li>
-               
-            </ul>
-            
 
+        <nav class="navbar">
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="hero">Nosotros</a></li>
+                <li><a class="navbar-link" href="about">Accidente de Trabajo ART</a></li>
+                <li><a class="navbar-link" href="about1">Accidentes de Tránsito</a></li>
+                <li><a class="navbar-link" href="about2">Estadios de Fútbol/Recitales</a></li>
+                <!-- <li><a class="navbar-link" href="">Indemnización por Despido</a></li> -->
+                <li><a class="navbar-link" href="work">Contacto</a></li>
+            </ul>
         </nav>
     </header>
+
+    <!-- E3 -->
+
+    <main>
+        <section id="hero">
+            <div class="heropresentation">
+                <h1>Abogados especialistas en accidentes</h1>
+                <p>Accidentes de trabajo y de tránsito</p>
+
+                <!-- ver de borrar
+                    div class="button-container">
+                    <a href="#" class="primay-btn">Contratame</a>
+                    <a href="#" class="alt-btn">Ver mas</a>
+                </!--> 
+            </div>
+            <img src="./imagenes/abogado.webp" alt="imagen de abogado" class="hero-img">
+
+        </section>
+        <section>
+            <h1><span>Quienes somos</span></h1>
+        </section>
+        <section id="about">
+            <p>Somos una firma de abogados con más de 40 años de trayectoria en el mercado jurídico que nos avalan. El estudio se compone de profesionales especialistas en las más diversas áreas del derecho a efectos de presentar soluciones adecuadas y a medida para cada uno de nuestros clientes.
+
+
+            Brindamos asesoramiento y representación jurídica en reclamos administrativos, extra-judiciales y judiciales tanto a personas humanas como a empresas, teniendo áreas dedicadas a cada reclamo y materia.</p>
+        </section>
+    </main>
+
+    
 </body>
 </html>
